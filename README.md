@@ -36,10 +36,6 @@ Hardware: A standard webcam. (No GPU required; inference runs smoothly on a stan
 
 **1. Clone the Repository**
 
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-
-
 **2. Create a Virtual Environment (Highly Recommended)**
 
 python -m venv venv
