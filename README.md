@@ -22,9 +22,9 @@ This project utilizes a standard webcam to perform real-time hand tracking and t
 | **System Integrations** | Python `threading`, `subprocess`, Windows PowerShell, SAPI |
 
 
-**Installation & Setup**
+## **Installation & Setup**
 
-**Prerequisites**
+## **Prerequisites**
 
 Operating System: Windows 10/11 (Required for native SAPI Text-to-Speech integration).
 
