@@ -22,43 +22,40 @@ This project utilizes a standard webcam to perform real-time hand tracking and t
 | **System Integrations** | Python `threading`, `subprocess`, Windows PowerShell, SAPI |
 
 
-Installation & Setup
+**Installation & Setup**
 
-System Requirements
+**Prerequisites**
 
-Operating System: Windows 10/11 (Required for the native SAPI Text-to-Speech integration). The vision/learning models will work on macOS/Linux, but the voice module requires modification.
+Operating System: Windows 10/11 (Required for native SAPI Text-to-Speech integration).
 
 Python Version: Python 3.9 - 3.12 is highly recommended. (Note: MediaPipe and PyTorch versions may conflict on Python 3.13+).
 
-Hardware: A standard webcam. (GPU is not required for inference, CPU runs this easily).
+Hardware: A standard webcam. (No GPU required; inference runs smoothly on a standard CPU).
 
-Step-by-Step Guide
+**Step-by-Step Installation**
 
-1. Clone the Repository
+**1. Clone the Repository**
 
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
 
-2. Create a Virtual Environment (Highly Recommended)
-To avoid dependency conflicts, create a clean environment.
+**2. Create a Virtual Environment (Highly Recommended)**
 
-# Windows
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate  # On Windows
 
 
-3. Install Dependencies
-Install the required machine learning and computer vision libraries.
+**3. Install Dependencies**
 
-# Install PyTorch (CPU version is sufficient for inference)
 pip install torch torchvision torchaudio
-
-# Install Computer Vision & Data libraries
 pip install opencv-python mediapipe numpy scikit-learn
 
 
-4. Run the Application
+**4. Run the Application**
+
+python c.py  # Replace c.py with your actual main script name if different
+
 Once installed, you can run the inference script.
 
 python c.py
